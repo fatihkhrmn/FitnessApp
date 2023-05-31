@@ -14,7 +14,7 @@
         android:layout_marginTop="50sp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="E-Mail"
+        android:hint="Kullanıcı Adı"
         android:background="@drawable/dt"
         android:paddingLeft="20sp"
         android:textSize="20sp"

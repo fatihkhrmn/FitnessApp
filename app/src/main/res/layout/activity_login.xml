@@ -29,7 +29,7 @@
         android:inputType="textPersonName"
         android:drawableLeft="@drawable/baseline_person_24"
         android:drawablePadding="20sp"
-        android:hint="E-Mail"
+        android:hint="Kullanıcı Adı"
         android:background="@drawable/dt"
         android:paddingLeft="15sp"
         android:textColor="#000"
