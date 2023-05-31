@@ -15,7 +15,7 @@ import android.widget.Toast;
 public class signup extends AppCompatActivity {
 
     EditText username, password, cPassword;
-    Button signup;
+    Button fitSignup;
     DBHelper DB;
 
     @SuppressLint("MissingInflatedId")
@@ -27,10 +27,10 @@ public class signup extends AppCompatActivity {
         username = findViewById(R.id.username);
         password = findViewById(R.id.password);
         cPassword = findViewById(R.id.cPassword);
-        signup = findViewById(R.id.signup);
+        fitSignup = findViewById(R.id.fitSignup);
         DB = new DBHelper(this);
 
-        signup.setOnClickListener(new View.OnClickListener() {
+        fitSignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
