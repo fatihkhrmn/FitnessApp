@@ -11,7 +11,6 @@
         android:layout_width="300sp"
         android:layout_height="450sp"
         android:src="@drawable/img1"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.234"
@@ -24,7 +23,6 @@
         android:layout_width="200sp"
         android:layout_height="250sp"
         android:src="@drawable/img2"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.834"
@@ -36,7 +34,7 @@
         android:id="@+id/title_txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CONCENTRATE ON YOURSELF \n  NO ONE GOT YOU THE WAY YOU DO"
+        android:text="KENDİNE ODAKLAN \n  NO ONE GOT YOU THE WAY YOU DO"
         android:textAlignment="center"
         android:textColor="#000"
         android:textSize="28sp"
@@ -46,7 +44,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.824" />
-
     <TextView
         android:id="@+id/subtitle_txt"
         android:layout_width="wrap_content"
@@ -79,14 +76,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+
     <Button
         android:id="@+id/btn1"
         android:background="#000"
         android:text="Get Started"
-        android:textColor="#fff"
+        android:layout_marginBottom="25dp"
+        android:textColor="#FFF"
         android:textAlignment="center"
         android:textSize="18sp"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"

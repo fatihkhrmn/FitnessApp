@@ -50,21 +50,10 @@ public class HomePage extends AppCompatActivity implements NavigationView.OnNavi
             Intent intent1 = new Intent(HomePage.this, Timer.class);
             startActivity(intent1);
         }
-        else if (id==R.id.nav_profile)
-        {
-            Intent intent2 = new Intent(HomePage.this, UserProfile.class);
-            startActivity(intent2);
-        }
 
         else if(id== R.id.nav_calc) {
             Intent intent3 = new Intent(HomePage.this, Recommendation.class);
             startActivity(intent3);
-        }
-
-        else if (id==R.id.nav_tracker)
-        {
-            Intent intent4 = new Intent(HomePage.this, FoodCalories.class);
-            startActivity(intent4);
         }
 
 

@@ -42,7 +42,7 @@ public class login extends AppCompatActivity {
                 else {
                     Boolean checkuserpass = DB.checkusernamepassword(user, pass);
                     if (checkuserpass==true) {
-                        Intent intent = new Intent(login.this, home.class);
+                        Intent intent = new Intent(login.this, MainMain.class);
                         startActivity(intent);
                     }
                     else {

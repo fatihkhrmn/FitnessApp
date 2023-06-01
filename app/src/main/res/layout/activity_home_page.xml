@@ -20,7 +20,6 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/baloo"
         android:text="My Fit"
         android:textAlignment="center"
         android:textSize="34sp"
@@ -33,7 +32,6 @@
         <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/baloo"
         android:text="Better Yourself Each Day"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -45,7 +43,6 @@
         <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/baloo"
         android:text="We Hope You Make Optimum Use \n Of The App For Your Gains.."
         android:textAlignment="center"
         android:textSize="20sp"

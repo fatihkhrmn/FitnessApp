@@ -60,7 +60,7 @@ public class MainMain extends AppCompatActivity
 
     public void openUserPage()
     {
-        Intent intent = new Intent(this, UserProfile.class);
+        Intent intent = new Intent(this, HomePage.class);
         startActivity(intent);
     }
 }
